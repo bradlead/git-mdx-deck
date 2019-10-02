@@ -4,7 +4,8 @@
   "description": "A blank mdx file to allow others to create their own mdx powered presentations through github without using an IDE.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mdx-deck deck.mdx"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/bradlead/git-mdx-deck#readme",
   "devDependencies": {
-    "mdx-deck": "^3.0.13"
+    "mdx-deck": "^3.0.13",
+    "@mdx-deck/themes": "^3.0.8"
   }
 }
